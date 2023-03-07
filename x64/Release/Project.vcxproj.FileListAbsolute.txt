@@ -1,0 +1,4 @@
+C:\Users\gab\source\repos\Project\x64\Release\Project.exe
+C:\Users\gab\source\repos\Project\x64\Release\Project.vcxproj.CopyComplete
+C:\Users\gab\source\repos\Project\x64\Release\libcurl.dll
+C:\Users\gab\source\repos\Project\x64\Release\zlib1.dll
