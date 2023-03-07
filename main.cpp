@@ -158,7 +158,7 @@ INT APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLin
 	colors[ImGuiCol_PopupBg] = ImVec4(0.08f, 0.08f, 0.08f, 0.94f);
 	colors[ImGuiCol_Border] = ImVec4(0.43f, 0.43f, 0.50f, 0.50f);
 	colors[ImGuiCol_BorderShadow] = ImVec4(0.00f, 0.00f, 0.00f, 0.00f);
-	colors[ImGuiCol_FrameBg] = ImVec4(0.16f, 0.29f, 0.48f, 0.54f);
+	colors[ImGuiCol_FrameBg] = ImVec4(0.08f, 0.08f, 0.08f, 0.94f);
 	colors[ImGuiCol_FrameBgHovered] = ImVec4(0.26f, 0.59f, 0.98f, 0.40f);
 	colors[ImGuiCol_FrameBgActive] = ImVec4(0.26f, 0.59f, 0.98f, 0.67f);
 	colors[ImGuiCol_TitleBg] = ImVec4(0.07f, 0.07f, 0.09f, 1.00f);
@@ -199,13 +199,13 @@ INT APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLin
 	colors[ImGuiCol_NavWindowingDimBg] = ImVec4(0.80f, 0.80f, 0.80f, 0.20f);
 	colors[ImGuiCol_ModalWindowDimBg] = ImVec4(0.80f, 0.80f, 0.80f, 0.35f);
 
-	style.WindowRounding = 0.0f;
-	style.ChildRounding = 0.0f;
-	style.FrameRounding = 2.0f;
-	style.GrabRounding = 0.0f;
-	style.PopupRounding = 0.0f;
+	style.WindowRounding = 60.0f;
+	style.ChildRounding = 10.0f;
+	style.FrameRounding = 60.0f;
+	style.GrabRounding = 10.0f;
+	style.PopupRounding = 10.0f;
 	style.ScrollbarRounding = 0.0f;
-	style.TabRounding = 0.0f;
+	style.TabRounding = 10.0f;
 	style.FramePadding.y = 5.0f;
 	style.ButtonTextAlign = ImVec2(0.5, 0.5);
 	
