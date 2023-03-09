@@ -272,8 +272,6 @@ INT APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLin
 						tabs = 2;
 						InfWindow = true;
 					}
-					//ImGui::SetCursorPos({ 267.f, 270.f });
-					//ImGui::Text("nesk#0001 (discord)");
 				}
 			}
 			ImGui::End();
